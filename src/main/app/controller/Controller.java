@@ -21,6 +21,6 @@ public class Controller {
 
 	@RequestMapping
 	Object test(@RequestParam(value = "prop", required = false) String prop) {
-		return new Date().toString() + " = " + (prop == null ? "" : e.getProperty(prop));
+		return new Date().toString() + " == " + (prop == null ? "" : e.getProperty(prop));
 	}
 }
