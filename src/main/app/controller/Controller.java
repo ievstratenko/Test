@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-	@Value("${myprop}")
+	@Value("${myprop}" )
 	Object value;
 
 	@Resource
